@@ -207,6 +207,7 @@ h6 {
 }
 /* Services */
 .service-icon {
+  background-image: url(../Images/chalkboard.png);
   background-color: #fff;
   color: #1D809F;
   height: 7rem;
@@ -215,6 +216,15 @@ h6 {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.apple-icon {
+  speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 }
 
 /* Footer */
@@ -290,3 +300,4 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
