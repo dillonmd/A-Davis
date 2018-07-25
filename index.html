@@ -17,6 +17,7 @@
     <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
     <!-- CSS -->
     <link href="css/momsite.css" rel="stylesheet">
@@ -43,7 +44,7 @@
           <a class="js-scroll-trigger" href="#services">Services</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#footer">Contact</a>
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -65,8 +66,10 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>About Me!</h2>
-            <p class="lead mb-5">Filler!</p>
+              <h2>About Me!</h2>
+            <div class="aboutme">
+                 <p>I am a graduate of Concordia University where I received my MEd in Differentiated Instruction and I hold a Bachelor of Arts in Psychology from St. Edwards University. I have been a teacher for over 15 years in the Austin area, for both private and public schools. I have taught pre-k through 12th grade, in various subject matters. I am passionate about helping struggling students find their own potential to be successful in learning. My philosophy is to adapt the work at hand into a learning model of their comfort with fun activities, encouragement and motivation. In my spare time, I love spending time with my family and friends. I am currently in the process of returning to school to work on my PhD in education. I love what I do and I find it a dream come true that my passion for the love of learning has become a career. </p>
+            </div>
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
           </div>
         </div>
@@ -125,23 +128,39 @@
 
    
 
-    <!-- Footer -->
+    <!-- Contact -->
     <footer id="contact"class="footer text-center">
+        <div class="contactform">
+            <form action="mailto:davis.annette@rocketmail.com.com" method="post" enctype="text/plain">
+          
+              <label for="name">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name..">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
+            <a class="social-link rounded-circle text-white mr-3" href="https://facebook.com">
+              <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.twitter.com/maestradavisatx">
+              <i class="fab fa-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/annette-segura-davis-med-50090ab8/">
+              <i class="fab fa-linkedin-in"></i>
             </a>
           </li>
         </ul>
