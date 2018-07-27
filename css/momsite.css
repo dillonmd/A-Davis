@@ -7,6 +7,8 @@ html {
 body {
   font-family: 'Open Sans';
   background-image: url(../Images/chalkboard.png);
+  background-repeat: no-repeat !important;
+  background-size: 100%;
 }
 
 .btn-xl {
@@ -190,14 +192,25 @@ h6 {
 
 /* About */
 .aboutme {
-  margin: 0 5% 0 0;
-  padding: 3%;
+  text-align: left;
+  max-width: 750px;
+  font-weight: 50;
+  line-height: 34px;
+  margin-top: 7px;
+  font-size: 20px;
+  color: black;
+  margin: 50px 70px 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  padding-bottom: 100px;
 }
 
 
 /* Services */
 .service-icon {
   background-image: url(../Images/chalkboard.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: #fff;
   color: #1D809F;
   height: 7rem;
@@ -220,6 +233,9 @@ h6 {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-image: url(../Images/chalkboard.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 footer.footer .social-link {
