@@ -1,2 +1,3 @@
 https://dmd710.github.io/A-Davis/ <br>
-Practiced Bootstrap by making my mom a website for her private tutoring business.
+
+A Website I am making for a family member's private tutoring service.
