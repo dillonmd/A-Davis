@@ -262,7 +262,25 @@ a:hover, a:focus, a:active {
   color: #155d74;
 }
 
+.container {
+  padding-top: 40px;
+}
+
 /* Contact Form */
+
+.contactform label {
+  color: white;
+  float: left;
+}
+
+.contactform h1 {
+  color: white;
+}
+
+.contactform form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 input[type=text], select, textarea {
   width: 100%; 
