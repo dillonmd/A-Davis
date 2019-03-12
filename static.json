@@ -1,4 +1,5 @@
 {
   "encoding": "US-ASCII",
-  "clean_urls": true
+  "clean_urls": true,
+  "root": "index.html"
 }
