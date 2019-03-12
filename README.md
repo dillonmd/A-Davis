@@ -1,3 +1,2 @@
-# A-Davis
-
-Private Tutor
+# Annette Davis
+# Private Tutor
